@@ -1,0 +1,48 @@
+            * {
+				font-family: Arial, Verdana, sans-serif;
+				color: #fff;}
+			body {
+				width: 80%;
+				margin: 0 auto;
+                background-image: url("Images/fractal_lines_inblue_2.jpg");
+            }
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer, #header {
+				margin: 1%;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px #46d436;
+            }
+			.column1, .column2 {
+                height: auto;
+                width: 48%;
+				float: left;
+				margin: 1%;
+                background-color: #2a048b;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px #46d436;
+            }
+			.column2 {
+				margin-right: 0%;}
+            ul.a li {display: inline;
+                     padding: 0.5em;}
+            ul.b, ul.c, ul.d, ul.e {list-style-type: circle;}
+            #nav, #footer {
+                background-color: #2a048b;
+                padding: 0.5em 0;} 
+            #header {
+                background-color: #505860;}
+            #feature, .article {
+                height: 300px;
+                margin-bottom: 1em;
+                background-color: #2a048b;}
+            p {padding: 15px;}
+            h1 {text-align: center;}
+            h2 {text-align: center;}
+            #footer {text-align: center;}
+            img.align-left {float: left; margin-right: 10px;}
+            img.align-right {float: right; margin-left: 10px;}
+            img.medium {width: 30%; height: 30%;}
+            img {border-style: solid; border-width: 3px; border-color: #46d436;}
+            
+       
