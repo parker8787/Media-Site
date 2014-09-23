@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function () {
+                $("#hide").click(function () {
+                    $("p.im").hide();
+                });
+                $("#show").click(function () {
+                    $("p.im").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="header">
+			<h1>MEDIA GUIDE - WELCOME</h1>
+				<div id="nav">
+                    <ul class="a">
+					    <li><a href="index.html">Home</a></li>
+					    <li><a href="Music.html">Music</a></li>
+					    <li><a href="Films.html">Films</a></li>
+				    </ul>
+                </div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<h2>About The Site</h2>
+                <p><img src="Images/digital_music.jpg" class="align-right medium"/> The purpose of this website is to give recomendations in film and popular music.
+                    However, it will try to avoid covering the most current or widely popular content.
+                    Instead, we will use our years of experience and enthusiasum to highlight some of 
+                    the slightly more obscure films and music tracks out there.
+                    Anyone looking for the greatest film they've never heard of, or wanting to improve
+                     thier playlist with different, but still brilliant music, should find something on
+                    these lists.
+                </p>
+			</div>
+			<div class="column1">
+				<h2>Music</h2>
+                <p>Track of the Week</p>
+                <p onclick="this.innerHTML='My Type - by Saint Motel'">Click Here to Reveal</p>
+			</div>
+			<div class="column2">
+				<h2>Films</h2>
+                <p>TV Film of the Week</p>
+                <p onclick="this.innerHTML='The Ides of March - 9:15pm - BBC2'">Click Here to Reveal</p>
+			</div>
+		</div>
+		<div id="footer">
+            <p class="im">All site images - <a href="http://www.freeimages.co.uk">www.freeimages.co.uk</a></p>
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+			<p>&copy; Copyright 2014</p>
+		</div>   
+    </body>
+</html>
